@@ -3,7 +3,7 @@
 Because it's not easy to know what you're holding, I wrote a PowerShell script that retrieves the information from the ESP32 chip and then, optionally, also erases the ESP32's flash memory.
 
 How to use it? First, read the comments at the beginning of the script so you know what's needed and how to get it.
-
+```
 # you must have python installed as well as esptool.py 
 
 ### if none of these are on your computer 
@@ -24,8 +24,9 @@ $command_erase = 'python -m esptool --chip auto erase_flash'
 # $esptoolPath = '\.platformio\packages\tool-esptoolpy'
 # $command_info  = 'python ' + $userProfile + $esptoolPath + '\esptool.py flash_id'
 # $command_erase = 'python ' + $userProfile + $esptoolPath + '\esptool.py --chip auto erase_flash'
-
+```
 Once that's done, connect an ESP32 module to your computer via USB, run the script... be patient. 
 If everything works, you'll see the information and be asked if you want to erase the ESP32.
 The ESP32-information is also written to a file with name compossed like this
 <chipmodel>_<memory size>_<MAC address>.txt
+
