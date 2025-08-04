@@ -4,7 +4,7 @@ Because it's not easy to know what you're holding, I wrote a PowerShell script t
 
 How to use it? First, read the comments at the beginning of the script so you know what's needed and how to get it.
 
-### you must have python installed as well as esptool.py 
+# you must have python installed as well as esptool.py 
 
 ### if none of these are on your computer 
 ### download and install python from https://www.python.org/downloads/
