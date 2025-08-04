@@ -1,6 +1,6 @@
 # ESP32-Check
 
-Because it's not easy to know what you're holding, I wrote a PowerShell script that retrieves the information from the ESP32 chip and then, optionally, also erases the ESP32's flash memory.
+Because it's not easy to know what you're holding, I wrote a PowerShell script that retrieves the information from the ESP32 chip/module and then, optionally, also erases the ESP32's flash memory.
 
 How to use it? First, read the comments at the beginning of the script so you know what's needed and how to get it.
 ```
