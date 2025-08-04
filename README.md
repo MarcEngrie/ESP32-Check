@@ -30,3 +30,5 @@ If everything works, you'll see the information and be asked if you want to eras
 The ESP32-information is also written to a file with name compossed like this
 <chipmodel>_<memory size>_<MAC address>.txt
 
+<img width="812" height="229" alt="image" src="https://github.com/user-attachments/assets/a66665e0-de58-45ec-b7e2-dc54a16a85f7" />
+
